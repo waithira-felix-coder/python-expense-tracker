@@ -1,0 +1,12 @@
+[project]
+name = "expense-tracker"
+version = "0.1.0"
+description = "A GUI expense tracker built with Python and Tkinter"
+authors = [{name="Waithira-Felix"}]
+dependencies = [
+    "matplotlib"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
