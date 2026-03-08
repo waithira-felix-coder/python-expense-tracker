@@ -1,11 +1,11 @@
+# filepath: c:\Users\PC\Desktop\expence-tracker\expense_tracker\ui.py
 # Main UI for the Expense Tracker application using Tkinter.
-
 import tkinter as tk
 from tkinter import messagebox
 from datetime import date
-from storage import add_expense, get_expenses
-from analytics import monthly_summary
-from visualization import plot_expenses
+from .storage import add_expense, get_expenses
+from .analytics import monthly_summary
+from .visualization import plot_expenses
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 class ExpenseApp:
