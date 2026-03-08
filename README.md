@@ -2,7 +2,7 @@
 
 A modern, web-based expense tracking application built with Python Flask and Bootstrap. Track your daily expenses, categorize spending, and visualize your financial data with interactive charts.
 
-## 🚀 Features
+##  Features
 
 - **Web-Based Interface**: Clean, responsive web application with Bootstrap styling
 - **Expense Management**: Add, view, and categorize expenses with date tracking
@@ -12,13 +12,13 @@ A modern, web-based expense tracking application built with Python Flask and Boo
 - **Real-time Updates**: Automatic chart updates when adding new expenses
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
 
-## 📋 Requirements
+##  Requirements
 
 - Python 3.8 or higher
 - pip (Python package installer)
 - Modern web browser
 
-## 🛠️ Installation
+##  Installation
 
 ### 1. Clone or Download the Project
 
@@ -58,7 +58,7 @@ python -m expense_tracker.main
 
 The application will start at `http://127.0.0.1:5000/`
 
-## 📖 Usage
+##  Usage
 
 ### Adding Expenses
 
@@ -77,7 +77,7 @@ The application will start at `http://127.0.0.1:5000/`
    - **Visual Chart**: Bar chart showing spending distribution
    - **Total Overview**: Quick glance at your spending patterns
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 expense-tracker/
@@ -118,7 +118,7 @@ Expenses are stored in `data/expenses.csv` in the project root directory. The fi
 
 The application runs on `http://127.0.0.1:5000/` by default. To change the port, modify the `app.run()` call in `main.py`.
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
