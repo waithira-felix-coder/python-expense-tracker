@@ -23,14 +23,14 @@ def plot_expenses(summary):
     else:
         bars = ax.bar(categories, amounts, color='skyblue', edgecolor='navy', linewidth=1)
         ax.set_title("Monthly Spending by Category", fontsize=16, fontweight='bold')
-        ax.set_ylabel("Amount ($)", fontsize=12)
+        ax.set_ylabel("Amount (Ksh)", fontsize=12)
         ax.set_xlabel("Category", fontsize=12)
         
         # Add value labels on bars
         max_amount = max(amounts)
         for bar, amount in zip(bars, amounts):
             ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + max_amount*0.01, 
-                    f'${amount:.2f}', ha='center', va='bottom', fontsize=10, fontweight='bold')
+                    f'Ksh{amount:.2f}', ha='center', va='bottom', fontsize=10, fontweight='bold')
         
         # Rotate x labels if many categories
         if len(categories) > 5:
