@@ -53,3 +53,6 @@ if __name__ == "__main__":
     app.run(debug=True)
     #app.run(host=0.0.0.0, port=5000)
 
+
+#Running this file will start the Flask web server. You can access the app at http://localhost:5000/ in your web browser.
+# #C:/Users/PC/Desktop/expence-tracker/.venv/Scripts/python.exe -m expense_tracker.main
