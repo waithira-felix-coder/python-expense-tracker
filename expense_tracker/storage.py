@@ -4,7 +4,9 @@ import csv
 from datetime import datetime
 from pathlib import Path
 
-DATA_DIR = Path(__file__).parent.parent / "data"
+#DATA_DIR = Path(__file__).parent.parent / "data"
+#DATA_FILE = DATA_DIR / "expenses.csv"
+DATA_DIR = Path("data")
 DATA_FILE = DATA_DIR / "expenses.csv"
 
 def init_storage():
@@ -13,7 +15,7 @@ def init_storage():
         with DATA_FILE.open("w", newline="") as f:
             writer = csv.writer(f)
             writer.writerow(["amount", "category", "date"])  # header
-
+# Adds a new expense to the CSV file
 def add_expense(amount, category, date_val):
     # store date as ISO string
     with DATA_FILE.open("a", newline="") as f:
